@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Modern Coffee Home</title>
+    <title>Bean & Brew - Modern Coffee Shop</title>
     <link rel="stylesheet" href="style.css">
     <link href="https://fonts.googleapis.com/css2?family=Kanit:wght@300;400;600&display=swap" rel="stylesheet">
 </head>
@@ -12,7 +12,7 @@
     <nav class="navbar">
         <div class="logo">BEAN & BREW</div>
         <ul class="nav-links">
-            <li><a href="#">หน้าแรก</a></li>
+            <li><a href="index.html" class="active">หน้าแรก</a></li>
             <li><a href="menu.html">เมนู</a></li>
             <li><a href="#">เกี่ยวกับเรา</a></li>
             <li><a href="#" class="btn-contact">ติดต่อ</a></li>
@@ -23,30 +23,46 @@
         <div class="hero-content">
             <h1>สัมผัสรสชาติกาแฟแท้ในสไตล์ <span class="highlight">Minimal</span></h1>
             <p>คัดสรรเมล็ดกาแฟคุณภาพเยี่ยม เพื่อแก้วพิเศษของคุณในทุกๆ วัน</p>
-            <a href="#" class="btn-primary">สั่งเลยตอนนี้</a>
+            <a href="menu.html" class="btn-primary">ดูเมนูทั้งหมด</a>
         </div>
     </header>
 
     <section class="featured">
-        <h2>เมนูแนะนำ</h2>
+        <div class="section-title">
+            <h2>Recommended Menu</h2>
+            <p>เมนูยอดนิยมที่อยากให้คุณลอง</p>
+        </div>
+
         <div class="menu-grid">
             <div class="menu-card">
-                <div class="img-placeholder">☕</div>
+                <div class="card-img-container">
+                    <img src="https://images.unsplash.com/photo-1534706936160-d5ee67737249?w=400&q=80" alt="Latte Art">
+                </div>
                 <h3>Latte Art</h3>
                 <p>นุ่มละมุนด้วยฟองนมคุณภาพ</p>
             </div>
+
             <div class="menu-card">
-                <div class="img-placeholder">🥤</div>
+                <div class="card-img-container">
+                    <img src="https://images.unsplash.com/photo-1551030173-122aabc4489c?w=400&q=80" alt="Black Orange">
+                </div>
                 <h3>Black Orange</h3>
                 <p>ความสดชื่นที่ลงตัวของส้มและกาแฟ</p>
             </div>
+
             <div class="menu-card">
-                <div class="img-placeholder">🥐</div>
+                <div class="card-img-container">
+                    <img src="https://images.unsplash.com/photo-1555507036-ab1f4038808a?w=400&q=80" alt="Croissant">
+                </div>
                 <h3>Croissant</h3>
                 <p>อบใหม่ หอมเนยแท้จากฝรั่งเศส</p>
             </div>
         </div>
     </section>
+
+    <footer>
+        <p>&copy; 2024 Bean & Brew Coffee. All rights reserved.</p>
+    </footer>
 
 </body>
 </html>
